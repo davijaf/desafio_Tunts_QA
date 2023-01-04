@@ -30,33 +30,33 @@ Acesso ao banco de dados para verificar se os dados estão sendo gravados corret
 2. Verifique se o botão "cadastrar" encontra-se desabilitado.
 3. Tente preencher o campo "nome" com caracteres especiais e números.
 4. Verifique se o campo "nome" foi invalidado e exibe a mensagem de erro "O campo nome não pode conter números ou caracteres especiais.".
-5. Verifique se o botão "cadastrar" encontra-se desabilitado.
-6. Tente preencher o campo "nome" acima de 50 caracteres do tipo letras.
-7. Ao tentar digitar o 51º caractere verifique se exibe a mensagem de erro "O campo nome aceita apenas 50 caracteres no máximo".
-8. Preencha o campo "nome" com "Davi José" e saia do campo.
-9. Verifique se o campo "nome" foi validado com sucesso.
-10. Preencha o campo "e-mail" com "davijose_gmail.com" e saia do campo.
-11. Verifique se o campo "e-mail" foi invalidado e exibe a mensagem de erro "O campo e-mail só permite e-mail’s válidos no formato: nome@email.algo."
-12. Preencha o campo "e-mail" com "davijose@gmail.com" e saia do campo.
-13. Verifique se o campo "e-mail" foi validado com sucesso.
-14. Verifique se o botão "cadastrar" encontra-se desabilitado.
-15. Preencha o campo "senha" com "senha123" e saia do campo.
-16. Verifique se o campo "senha" foi invalidado e exibe a mensagem de erro "Lembre-se que deverá ser informado no mínimo 4 caracteres (Ao menos uma letra, um caractere especial e um número)."
-17. Preencha o campo "senha" com "S12@" e saia do campo.
-18. Verifique se o campo "senha" foi validado com sucesso.
-19. Verifique se o botão "cadastrar" encontra-se desabilitado.
-20. Tente preencher o campo "repetir senha" com uma senha diferente da escrita no campo "senha".
-21. Verifique se o campo "repetir senha" foi invalidado e exibe a mensagem de erro "As senhas não coincidem".
-22. Verifique se o botão "cadastrar" encontra-se desabilitado.
-23. Preencha o campo "repetir senha" com a mesma senha escrita no campo "senha".
-24. Verifique se o campo "repetir senha" foi validado com sucesso.
+5. Tente preencher o campo "nome" acima de 50 caracteres do tipo letras.
+6. Ao tentar digitar o 51º caractere verifique se exibe a mensagem de erro "O campo nome aceita apenas 50 caracteres no máximo".
+7. Preencha o campo "nome" com "Davi José" e saia do campo.
+8. Verifique se o campo "nome" foi validado com sucesso.
+9. Preencha o campo "e-mail" com "davijose_gmail.com" e saia do campo.
+10. Verifique se o campo "e-mail" foi invalidado e exibe a mensagem de erro "O campo e-mail só permite e-mail’s válidos no formato: nome@email.algo."
+11. Preencha o campo "e-mail" com "davijose@gmail.com" e saia do campo.
+12. Verifique se o campo "e-mail" foi validado com sucesso.
+13. Preencha o campo "senha" com "senha123" e saia do campo.
+14. Verifique se o campo "senha" foi invalidado e exibe a mensagem de erro "Lembre-se que deverá ser informado no mínimo 4 caracteres (Ao menos uma letra, um caractere especial e um número)."
+15. Preencha o campo "senha" com "S12@" e saia do campo.
+16. Verifique se o campo "senha" foi validado com sucesso.
+17. Tente preencher o campo "repetir senha" com uma senha diferente da escrita no campo "senha".
+18. Verifique se o campo "repetir senha" foi invalidado e exibe a mensagem de erro "As senhas não coincidem".
+19. Preencha o campo "repetir senha" com a mesma senha escrita no campo "senha".
+20. Verifique se o campo "repetir senha" foi validado com sucesso.
+21. Verifique se o botão "cadastrar" está habilitado.
+22. Ao concluir o preenchimento, altere os campos com preenchimentos contrários às regras, um por vez.
+23. Verifique se o botão "cadastrar" está desabilitado. 
+24. Retome os preenchimento dos campos: "nome" com "Davi José", "e-mail" com "davijose@gmail.com", "senha" com "S12@" e "repetir senha" com "S12@"
 25. Verifique se o botão "cadastrar" está habilitado.
 26. Clique no botão "cadastrar".
 27. Verifique se o cadastro foi realizado com sucesso e armazenado com sucesso em um banco de dados local.
 28. Verifique se a mensagem de sucesso "Cadastro realizado com sucesso!" é exibida para o usuário.
 29. Refaça o preenchimento do formulário de cadastro simples utilizando o e-mail “davijose@gmail.com”, atentando aos critérios exigidos para os outros campos.
 30. Clique no botão "cadastrar".
-27. Verifique se o cadastro foi recusado e exibe a mensagem de erro "“E-mail” já cadastrado, o cadastro não pode ser finalizado. ".
+31. Verifique se o cadastro foi recusado e exibe a mensagem de erro "“E-mail” já cadastrado, o cadastro não pode ser finalizado. ".
 
 ## Saídas esperadas:
 * Todos os campos são inválidos antes do preenchimento correto ser realizado.
